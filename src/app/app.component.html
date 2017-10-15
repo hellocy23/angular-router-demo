@@ -1,3 +1,6 @@
-<a [routerLink]="['/']">主页</a>
-<a [routerLink]="['/product']">商品详情页</a>
+<!--/表示配置更路由，参数是一个数组，在路由的时候可以传递参数-->
+<a [routerLink]="['/home']">主页</a>
+<a [routerLink]="['/product', 1]">商品详情页</a>
+<input type="button" value="商品详情" (click)="toProductDetail()">
+<!-- router-outlet为路由插槽，显示组件内容 -->
 <router-outlet></router-outlet>
