@@ -5,9 +5,9 @@ import { DebugElement } from '@angular/core';
 
 import { HomeComponent } from './home.component';
 
-describe( HomeComponent', () => {
+describe( 'HomeComponent', () => {
   let component: HomeComponent;
-  let fixture: ComponentFixture HomeComponent>;
+  let fixture: ComponentFixture <HomeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -17,7 +17,7 @@ describe( HomeComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent HomeComponent);
+    fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

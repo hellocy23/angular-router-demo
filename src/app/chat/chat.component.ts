@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
-  selector: 'app-productDesc',
-  templateUrl: './product-desc.component.html',
-  styleUrls: ['./product-desc.component.css']
+  selector: 'app-chat',
+  templateUrl: 'chat.component.html',
+  styleUrls: ['chat.component.css']
 })
-export class ProductDescComponent implements OnInit {
+export class ChatComponent implements OnInit {
 
   constructor() { }
 
